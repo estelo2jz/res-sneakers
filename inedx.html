@@ -15,14 +15,71 @@
     <body>
 
         <!--===== HEADER =====-->
-        
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <box-icon type='solid' name='grid' class="nav__icon"></box-icon>
+                </div>
+                <a href="#" class="nav__logo">Raven</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li>
+                        <li class="nav__item"><a href="#women" class="nav__link">Women</a></li>
+                        <li class="nav__item"><a href="#new" class="nav__link">New</a></li>
+                        <li class="nav__item"><a href="#shop" class="nav__link">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="nav__shop">
+                    <box-icon name='shopping-bag' class="nav__icon" ></box-icon>
+                </div>
+            </nav>
+        </header>
 
         <main class="l-main">
             <!--===== HOME =====-->
-            
+            <section class="home" id="l-main">
+              <div class="home__container bd-grid">
+                  <div class="home__sneaker">
+                      <div class="home__shape"></div>
+                      <img src="./assets/img/imghome.png" alt="" class="home__img" />
+                  </div>
+                  <div class="home__data">
+                      <span class="home__now">New in</span>
+                      <h1 class="home__title">YEEZY BOOST <br> SPLY - 350</h1>
+                      <p class="home__description">Explore the new collections of sneakers</p>
+                      <a href="#" class="button">Explore now</a>
+                  </div>
+              </div>
+            </section>
 
             <!--===== FEATURED =====-->
-            
+            <section class="featured section" id="featured">
+                <h2 class="section-title">FEATURED</h2>
+                <div class="featured__container bd-grid">
+                    <article class="sneaker">
+                        <div class="sneaker__sale">Sale</div>
+                        <img src="./assets/img/featured1.png" alt="" class="sneaker__img" />
+                        <span class="sneaker__name">Nike Jordan</span>
+                        <span class="sneaker__price">$149.99</span>
+                        <a href="#" class="button-light">Add to Cart <box-icon name='right-arrow-alt' class='button-icon'></box-icon></a>
+                    </article>
+                    <article class="sneaker">
+                        <div class="sneaker__sale">Sale</div>
+                        <img src="./assets/img/featured2.png" alt="" class="sneaker__img" />
+                        <span class="sneaker__name">Nike Free RN</span>
+                        <span class="sneaker__price">$149.99</span>
+                        <a href="#" class="button-light">Add to Cart <box-icon name='right-arrow-alt' class='button-icon'></box-icon></a>
+                    </article>
+                    <article class="sneaker">
+                        <div class="sneaker__sale">Sale</div>
+                        <img src="./assets/img/featured3.png" alt="" class="sneaker__img" />
+                        <span class="sneaker__name">Nike Free RN</span>
+                        <span class="sneaker__price">$149.99</span>
+                        <a href="#" class="button-light">Add to Cart <box-icon name='right-arrow-alt' class='button-icon'></box-icon></a>
+                    </article>
+                </div>
+            </section>
 
             <!--===== COLLECTION =====-->
             
@@ -44,7 +101,7 @@
         
 
         <!--===== MAIN JS =====-->
+        <script type="text/javascript" src="./assets/js/main.js"></script>
         <script src=""></script>
-        
     </body>
 </html>
